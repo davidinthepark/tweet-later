@@ -1,6 +1,6 @@
 {
   "homepage": "https://davidinthepark.github.io/tweet-later",
-  "name": "react-notes-app",
+  "name": "tweet-later",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
