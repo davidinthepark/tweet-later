@@ -2,7 +2,7 @@ import { React } from "react";
 import LinearProgress from "@mui/material/LinearProgress";
 
 function CreateNote({ textHandler, saveHandler, inputText }) {
-    const charLimit = 100;
+    const charLimit = 280;
     const charLeft = charLimit - inputText.length;
     return (
         <div className="note" style={{ background: "rgba(255, 255, 255, 0)" }}>
@@ -12,7 +12,7 @@ function CreateNote({ textHandler, saveHandler, inputText }) {
                 value={inputText}
                 placeholder="Type...."
                 onChange={textHandler}
-                maxLength="100"
+                maxLength="280"
             ></textarea>
             <div className="note__footer">
                 <span className="label">{charLeft} left</span>
