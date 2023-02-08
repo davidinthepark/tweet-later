@@ -2,7 +2,7 @@ import { React } from "react";
 import LinearProgress from "@mui/material/LinearProgress";
 
 function EditNote({ textHandler, saveHandler, inputText }) {
-    const charLimit = 100;
+    const charLimit = 280;
     const charLeft = charLimit - inputText.length;
     return (
         <div className="note" style={{ background: "rgba(255, 255, 255, 0)" }}>
