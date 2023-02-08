@@ -23,6 +23,11 @@ body {
     margin: 10px 0px;
 }
 
+.header_icon {
+    display: inline;
+    margin-right: 10px;
+}
+
 .notes__title {
     color: #fff;
     font-size: 38px;
